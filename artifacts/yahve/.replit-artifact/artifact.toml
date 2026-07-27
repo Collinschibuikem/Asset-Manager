@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "YAHVE — Premium Christian Streetwear"
+version = "1.0.0"
+id = "artifacts/yahve"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18365
+
+[services.development]
+run = "pnpm --filter @workspace/yahve run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/yahve", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/yahve/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18365"
+BASE_PATH = "/"

@@ -1,0 +1,627 @@
+You are an award-winning Senior UI/UX Designer, Creative Director, Frontend Developer, and Luxury Fashion E-commerce Expert.
+
+Your task is to design and build a world-class fashion e-commerce website for a premium Christian streetwear brand called YAHVE.
+
+DO NOT build a generic Shopify-looking website.
+
+DO NOT use template designs.
+
+The website should look like it belongs beside Zara, Gucci, Fear of God Essentials, COS, Represent Clothing, Aime Leon Dore, Cole Buxton, and Apple.
+
+The feeling should be:
+
+Luxury.
+Minimal.
+Modern.
+Editorial.
+Premium.
+Timeless.
+Sophisticated.
+
+Every page should breathe with lots of whitespace.
+
+The design should feel expensive.
+
+==================================================
+
+BRAND
+
+Name:
+YAHVE
+
+Meaning:
+Faith.
+Identity.
+Purpose.
+
+Mission:
+
+Create premium apparel that inspires people to remember God while expressing their identity through modern streetwear.
+
+YAHVE is NOT simply a print-on-demand store.
+
+It is a lifestyle fashion brand.
+
+==================================================
+
+DESIGN STYLE
+
+Very minimal.
+
+No flashy colours.
+
+No gradients.
+
+No loud buttons.
+
+No cartoon illustrations.
+
+No unnecessary icons.
+
+Use black and white as the primary colours.
+
+Accent colours should only be subtle grey tones.
+
+Typography should be elegant.
+
+Lots of whitespace.
+
+Large product photography.
+
+Editorial layouts.
+
+Luxury animations.
+
+==================================================
+
+COLOUR PALETTE
+
+Background:
+#FFFFFF
+
+Primary Text:
+#111111
+
+Secondary Text:
+#666666
+
+Borders:
+#EEEEEE
+
+Light Grey Sections:
+#F8F8F8
+
+Button:
+Black
+
+Button Text:
+White
+
+Hover:
+Very subtle.
+
+==================================================
+
+TYPOGRAPHY
+
+Use a premium font like:
+
+Inter
+
+Geist
+
+General Sans
+
+Helvetica
+
+Avoid playful fonts.
+
+Large headings.
+
+Clean body text.
+
+==================================================
+
+WEBSITE STRUCTURE
+
+Home
+
+Shop
+
+Collections
+
+Customize
+
+Journal
+
+About
+
+Contact
+
+FAQ
+
+Shipping
+
+Returns
+
+Account
+
+Wishlist
+
+Cart
+
+==================================================
+
+HEADER
+
+Sticky navigation.
+
+Transparent on hero.
+
+Turns white while scrolling.
+
+Include:
+
+Logo
+
+Shop
+
+Collections
+
+Customize
+
+Journal
+
+About
+
+Search Icon
+
+Wishlist Icon
+
+Account Icon
+
+Cart Icon
+
+On mobile use a beautiful slide-out menu.
+
+==================================================
+
+HERO SECTION
+
+Full screen.
+
+High quality lifestyle image.
+
+Large headline.
+
+Example:
+
+FAITH.
+IDENTITY.
+PURPOSE.
+
+Subheading:
+
+Premium Christian Streetwear designed for everyday life.
+
+Button:
+
+Shop Collection
+
+Second Button:
+
+Explore Story
+
+Use slow fade animations.
+
+==================================================
+
+SECTION 2
+
+Featured Collections
+
+Large image cards.
+
+Examples:
+
+The Glory Collection
+
+Never Forget God
+
+Kingdom
+
+Grace
+
+Identity
+
+Purpose
+
+Each card opens a collection.
+
+==================================================
+
+BEST SELLERS
+
+Beautiful product cards.
+
+No colourful labels.
+
+Large images.
+
+Hover effect:
+
+Image zoom
+
+Quick Add
+
+Quick View
+
+==================================================
+
+NEW ARRIVALS
+
+Editorial layout.
+
+Featured products.
+
+==================================================
+
+LOOKBOOK
+
+Large photography.
+
+Model wearing YAHVE apparel.
+
+Magazine-style layout.
+
+Minimal text.
+
+==================================================
+
+OUR STORY
+
+Editorial section.
+
+Explain the vision.
+
+Explain why YAHVE exists.
+
+Focus on meaning, not just clothing.
+
+==================================================
+
+SCRIPTURE SECTION
+
+Each collection should have an inspiration verse.
+
+Example:
+
+Never Forget God
+
+Inspired by Deuteronomy 8.
+
+This should feel premium, not preachy.
+
+==================================================
+
+CUSTOMIZATION PAGE
+
+Allow users to customize:
+
+T-shirts
+
+Hoodies
+
+Caps
+
+Mugs
+
+Tote Bags
+
+Corporate Apparel
+
+University Merchandise
+
+Church Merchandise
+
+Allow:
+
+Upload Logo
+
+Add Text
+
+Choose Font
+
+Choose Colour
+
+Position Artwork
+
+Front
+
+Back
+
+Sleeve
+
+Live Preview
+
+==================================================
+
+SHOP PAGE
+
+Filters
+
+Category
+
+Price
+
+Colour
+
+Size
+
+Availability
+
+Sort
+
+Grid/List Toggle
+
+Beautiful animations.
+
+==================================================
+
+PRODUCT PAGE
+
+Large gallery.
+
+Zoom images.
+
+Product title.
+
+Price.
+
+Description.
+
+Size selector.
+
+Quantity selector.
+
+Add to Cart.
+
+Wishlist.
+
+Accordion:
+
+Description
+
+Fabric
+
+Shipping
+
+Returns
+
+Below:
+
+Complete the Look
+
+Related Products
+
+Recently Viewed
+
+==================================================
+
+SHOPPING CART
+
+Modern slide-out cart.
+
+Beautiful animations.
+
+Editable quantity.
+
+Promo code.
+
+Subtotal.
+
+Checkout button.
+
+==================================================
+
+CHECKOUT
+
+Minimal.
+
+Fast.
+
+Guest checkout.
+
+Login.
+
+Shipping details.
+
+Payment.
+
+Order summary.
+
+==================================================
+
+ACCOUNT
+
+Dashboard
+
+Orders
+
+Wishlist
+
+Addresses
+
+Profile
+
+Password
+
+==================================================
+
+SEARCH
+
+Instant search.
+
+Show products while typing.
+
+==================================================
+
+WISHLIST
+
+Heart icon.
+
+Save favourite products.
+
+==================================================
+
+FOOTER
+
+Minimal.
+
+Columns:
+
+Shop
+
+Collections
+
+Customer Care
+
+Company
+
+Newsletter
+
+Social Media
+
+Copyright
+
+==================================================
+
+MOBILE EXPERIENCE
+
+The mobile experience should feel like a native iPhone app.
+
+Large touch targets.
+
+Fast.
+
+Smooth animations.
+
+Responsive on every screen.
+
+==================================================
+
+ANIMATIONS
+
+Use Framer Motion.
+
+Subtle fades.
+
+Image zoom.
+
+Parallax hero.
+
+Smooth scrolling.
+
+Luxury hover effects.
+
+==================================================
+
+IMAGES
+
+Use high-quality placeholders that resemble Zara or Gucci campaign photography.
+
+Never use low-quality mockups.
+
+==================================================
+
+PERFORMANCE
+
+Fast loading.
+
+Lazy loading.
+
+Image optimization.
+
+SEO friendly.
+
+Accessible.
+
+==================================================
+
+TECH STACK
+
+Use:
+
+Next.js
+
+TypeScript
+
+Tailwind CSS
+
+Framer Motion
+
+Lucide Icons
+
+Shadcn UI
+
+React Hook Form
+
+Zod
+
+The code should be modular, clean, reusable, and production-ready.
+
+==================================================
+
+ADMIN FEATURES
+
+Simple product management.
+
+Categories.
+
+Inventory.
+
+Orders.
+
+Customers.
+
+Coupons.
+
+Reviews.
+
+Analytics Dashboard.
+
+==================================================
+
+FUTURE FEATURES
+
+Bulk ordering.
+
+Corporate orders.
+
+Church orders.
+
+University stores.
+
+Gift cards.
+
+Subscriptions.
+
+Rewards.
+
+Referral system.
+
+Multi-currency.
+
+Multi-language.
+
+==================================================
+
+IMPORTANT
+
+Do not make it look like a generic e-commerce website.
+
+Do not make it look like Shopify.
+
+Do not make it look like a template.
+
+The final product should look like a premium $20 million fashion brand.
