@@ -25,7 +25,7 @@ export function Contact() {
             <div className="space-y-8 text-sm text-gray-600">
               <div>
                 <strong className="block text-black font-medium uppercase tracking-widest text-xs mb-2">Email</strong>
-                <p>support@yahve.co</p>
+                <p>support@yahve.com</p>
                 <p className="mt-1 text-xs text-gray-400">Expect a reply within 24-48 hours.</p>
               </div>
               
@@ -38,7 +38,7 @@ export function Contact() {
               <div>
                 <strong className="block text-black font-medium uppercase tracking-widest text-xs mb-2">Studio</strong>
                 <p>By appointment only.</p>
-                <p>New York City, NY</p>
+                <p>Abuja Nigeria</p>
               </div>
             </div>
           </div>
