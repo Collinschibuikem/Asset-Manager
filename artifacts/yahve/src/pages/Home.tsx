@@ -79,7 +79,7 @@ export function Home() {
               </div>
             </Link>
             <Link href="/collections" className="group relative overflow-hidden bg-[#F8F8F8]">
-              <img src="./attached_assets/generated_images/lookbook1.jpg" alt="Never Forget God" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              <img src="/attached_assets/generated_images/lookbook1.jpg" alt="Never Forget God" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
               <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors" />
               <div className="absolute inset-0 p-8 flex flex-col justify-end text-white">
                 <span className="text-[10px] uppercase tracking-widest mb-1">Collection</span>
