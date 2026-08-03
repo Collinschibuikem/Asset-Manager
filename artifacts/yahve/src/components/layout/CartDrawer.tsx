@@ -59,7 +59,7 @@ export function CartDrawer() {
                             {item.color} / {item.size}
                           </p>
                         </div>
-                        <span className="text-sm">${item.product.price}</span>
+                        <span className="text-sm">₦{item.product.price}</span>
                       </div>
                       
                       <div className="flex items-center justify-between">
@@ -96,7 +96,7 @@ export function CartDrawer() {
               <div className="border-t border-[#EEEEEE] p-6 bg-[#F8F8F8]">
                 <div className="flex justify-between text-sm font-medium mb-6">
                   <span>Subtotal</span>
-                  <span>${subtotal.toFixed(2)}</span>
+                  <span>₦{subtotal.toFixed(2)}</span>
                 </div>
                 <p className="text-xs text-gray-500 mb-6">Shipping & taxes calculated at checkout.</p>
                 <button className="w-full bg-black text-white py-4 text-xs uppercase tracking-widest font-medium hover:bg-gray-900 transition-colors">

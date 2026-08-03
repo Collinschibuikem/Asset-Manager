@@ -66,7 +66,7 @@ export function Account() {
                       </div>
                       <div>
                         <p className="text-[10px] uppercase tracking-widest font-medium text-gray-500 mb-1">Total</p>
-                        <p className="text-sm font-medium">$250.00</p>
+                        <p className="text-sm font-medium">₦250.00</p>
                       </div>
                       <div>
                         <p className="text-[10px] uppercase tracking-widest font-medium text-gray-500 mb-1">Order #</p>
@@ -99,7 +99,7 @@ export function Account() {
                       </div>
                       <div>
                         <p className="text-[10px] uppercase tracking-widest font-medium text-gray-500 mb-1">Total</p>
-                        <p className="text-sm font-medium">$85.00</p>
+                        <p className="text-sm font-medium">₦85.00</p>
                       </div>
                       <div>
                         <p className="text-[10px] uppercase tracking-widest font-medium text-gray-500 mb-1">Order #</p>

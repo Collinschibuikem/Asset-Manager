@@ -215,7 +215,7 @@ export function Customize() {
                       </div>
                       <div className="pt-4 border-t border-[#EEEEEE] flex justify-between text-base font-medium">
                         <span>Total</span>
-                        <span>$195.00</span>
+                        <span>₦195.00</span>
                       </div>
                     </div>
 
