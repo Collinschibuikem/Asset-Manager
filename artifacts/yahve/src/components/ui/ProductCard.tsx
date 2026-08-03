@@ -84,7 +84,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
         <div className="flex flex-col gap-1 px-1">
           <div className="flex justify-between items-start gap-4">
             <h3 className="text-sm font-medium text-gray-900 truncate">{product.name}</h3>
-            <span className="text-sm text-gray-600">${product.price}</span>
+            <span className="text-sm text-gray-600">₦{product.price}</span>
           </div>
           <p className="text-xs text-gray-500">{product.collection}</p>
         </div>

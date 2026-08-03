@@ -106,7 +106,7 @@ export function ProductDetail() {
             <div className="mb-8">
               <p className="text-xs text-gray-500 uppercase tracking-widest mb-3">{product.collection}</p>
               <h1 className="text-3xl font-medium tracking-wide mb-4">{product.name}</h1>
-              <p className="text-xl">${product.price}</p>
+              <p className="text-xl">₦{product.price}</p>
             </div>
 
             {/* Color Selection */}
