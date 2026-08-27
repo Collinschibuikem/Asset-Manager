@@ -3,7 +3,7 @@ import { Link } from 'wouter';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Plus, Minus } from 'lucide-react';
 import { useCart } from '@/context/CartContext';
-import { CheckoutModal } from './CheckoutModal'; // Import your CheckoutButton component
+import { CheckoutModal } from '@/components/CheckoutModal'; // Import your CheckoutButton component
 
 export function CartDrawer() {
   const { isCartOpen, setIsCartOpen, items, updateQuantity, removeFromCart, subtotal } = useCart();
