@@ -95,7 +95,7 @@ export function CartDrawer() {
             {/* Footer */}
             {items.length > 0 && (
               <div className="border-t border-[#EEEEEE] p-6 bg-[#F8F8F8]">
-                <CheckoutButton />
+                <CheckoutModal />
               </div>
             )}
           </motion.div>
