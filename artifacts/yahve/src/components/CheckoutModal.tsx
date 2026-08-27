@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useCart } from '../context/CartContext'; 
 import { Button } from './ui/button';
 
-export function CheckoutButton() {
+export function CheckoutModal() { // <-- Changed from CheckoutButton to CheckoutModal
   const { items, subtotal } = useCart(); 
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
@@ -12,14 +12,13 @@ export function CheckoutButton() {
 
   const handlePaystackSuccessAction = (reference: any) => {
     alert(`Payment successful! Reference: ${reference.reference}`);
-    // Clear cart via localStorage and reload or reset
     localStorage.removeItem('yahve_cart');
-    window.location.reload(); // Refreshes app to clear state safely
+    window.location.reload(); 
   };
 
   const paystackConfig = {
     email: email || "customer@yahve.com",
-    amount: (subtotal || 0) * 100, // Paystack expects amount in kobo
+    amount: (subtotal || 0) * 100, 
     publicKey,
     onSuccess: (reference: any) => handlePaystackSuccessAction(reference),
     onClose: () => alert('Transaction cancelled'),
@@ -67,7 +66,6 @@ export function CheckoutButton() {
             alert('Your cart is empty');
             return;
           }
-          // Trigger Paystack inline popup
           // @ts-ignore
           if (window.PaystackPop) {
             // @ts-ignore
