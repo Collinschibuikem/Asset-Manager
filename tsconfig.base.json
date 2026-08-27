@@ -21,7 +21,7 @@
     "skipLibCheck": true,
     "target": "es2022",
     "types": [],
+    "jsx": "react-jsx",
     "customConditions": ["workspace"]
-    "jsx": "react-jsx"
   }
 }
