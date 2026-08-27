@@ -8,7 +8,7 @@ export function CheckoutButton() {
   const [name, setName] = useState('');
 
   // Replace this with your actual Paystack Public Key
-  const publicKey = "pk_live_a90471e9d0071d18f50381a263bea7d272c46f54"; 
+  const publicKey = "pk_test_f9f490c44529a8ba1ee4737dc21e3d2f05f1001c"; 
 
   const handlePaystackSuccessAction = (reference: any) => {
     alert(`Payment successful! Reference: ${reference.reference}`);
